@@ -50,6 +50,3 @@
   <li>Add scheduling and analytics</li>
 </ul>
 
-<h2>License</h2>
-
-<p>This project is open-source and free to use. Feel free to tweak and improve!</p>
