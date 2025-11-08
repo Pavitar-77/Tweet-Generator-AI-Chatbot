@@ -1,4 +1,4 @@
-<h1>✨ Tweet Generator AI Chatbot</h1>
+<h1>Tweet Generator AI Chatbot</h1>
 
 <p>Welcome to the <strong>Tweet Generator AI Chatbot</strong>, a simple yet powerful tool that helps you create engaging tweets effortlessly. Powered by Google’s Gemini AI model and built with Python and interactive Jupyter widgets, this project makes writing tweets fun and fast—no more staring at blank screens!</p>
 
