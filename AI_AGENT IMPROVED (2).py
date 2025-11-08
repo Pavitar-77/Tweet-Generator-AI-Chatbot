@@ -7,7 +7,7 @@ API_KEY = input("Enter Gemini API key: ")
 genai.configure(api_key=API_KEY)
 
 # --- Model Initialization ---
-model = genai.GenerativeModel("gemini-2.0-flash")  # Use a valid model name
+model = genai.GenerativeModel("gemini-2.0-flash") 
 
 # --- Widget Definitions ---
 topic_input = widgets.Text(
@@ -74,3 +74,4 @@ form = widgets.VBox([
 ])
 
 display(form)
+
