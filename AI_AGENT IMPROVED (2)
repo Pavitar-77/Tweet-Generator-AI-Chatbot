@@ -35,7 +35,7 @@ submit_button = widgets.Button(
     description="Generate Tweet",
     button_style="success",
     tooltip="Click to generate tweet",
-    layout=widgets.Layout(width="400px")  # ✅ 'layout' (lowercase) not 'Layout'
+    layout=widgets.Layout(width="400px")  
 )
 
 output = widgets.Output()
@@ -64,7 +64,7 @@ submit_button.on_click(generate_tweet)
 
 # --- Form Layout ---
 form = widgets.VBox([
-    widgets.HTML(value="<h3>✨ Tweet Generator Agent</h3>"),
+    widgets.HTML(value="<h3> Tweet Generator Agent</h3>"),
     topic_input,
     tone_input,
     audience_input,
@@ -74,3 +74,4 @@ form = widgets.VBox([
 ])
 
 display(form)
+
